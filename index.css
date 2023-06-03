@@ -65,6 +65,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: start;
+    max-width: 1500px;
+    margin: auto;
 }
 
 .activity-card {
@@ -137,5 +139,5 @@ a{
     padding: 1px ;
     background-image: url(https://2.bp.blogspot.com/-42lcyl3Ozu0/UHYIzt4prQI/AAAAAAAABRA/9vp79KmqcKo/s1600/DSC_0555.JPG);
     background-size: cover;
-    height: 6500px;
+    height: 450px;
 }

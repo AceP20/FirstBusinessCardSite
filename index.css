@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+
+#content {
+    
+    min-width: 750px;
+}
+
+ #hero-section{
+     background-image: url(https://www.pcma.org/wp-content/uploads/2018/11/winterskyline_nicholas-millard_b0ab7aeb-d566-8359-c188f7a9639f4527.jpg);
+     background-size: cover;
+     height: 400px;
+     color: whitesmoke;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+     }
+ 
+#title{
+    width: 300pxpx;
+    background-color: #776E6F;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px 6px;
+    text-shadow: 0 0 3px black;
+    margin-bottom: 0px;
+}
+
+#subtitle{
+    margin-top: 10px;
+    width: 422px;
+    background-color: #5571A0;
+    border: 2px solid black; 
+    border-radius: 10px;
+    padding: 4px 8px;
+    text-shadow: 0 0 3px black;
+}
+
+#activities-section{
+    padding: 1px;
+    background: linear-gradient(#5571A0, #707C9C, #5571A0);
+    height: 400px;
+    color: whitesmoke;
+    text-shadow: 0 0 2px black;
+}
+
+#activities-subtitle{
+    font-size: 24px;
+}
+
+.activities-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+#activities {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.activity-card {
+    margin: 0px 10px;
+    padding-top: 10px;
+    border: 1px solid #707C9C;
+    border-radius: 25px;
+    background-color: #5571A0;
+}
+
+.activity-name {
+    font-weight: bold;
+    border: 2px solid;
+    border-image: linear-gradient(50deg, #271913, #776E6F, #0F0C0C) 1;
+    background-image: linear-gradient(#573B2A, #776E6F, #573B2A);
+    padding: 4px 7px;
+}
+
+a{
+    color: whitesmoke;
+    text-shadow: 0 0 10px black;
+    text-decoration: none;
+}
+
+.activity-name:hover {
+    background-image: linear-gradient(#776E6F, #B4844E, #776E6F);
+}
+
+/* Fit  title in one line */
+#park {
+    width: 250px;
+    margin: 20px auto;
+}
+.activity-description {
+    margin-top: 20px;
+    padding: 0 20px;
+    line-height: 22px;
+    text-shadow: 0 0 1px black;
+}
+
+#card{
+    background-image: url(https://img1.picmix.com/output/stamp/normal/5/9/2/0/1820295_7987d.gif);
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    width: 400px;
+    margin: 50px auto;
+    flex-direction: row-reverse;
+    border-radius: 20px
+}
+
+#tour-guide-img {
+    width: 200px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+#footer-text {
+    font-style: italic;
+    color: aliceblue;
+    margin: auto 10px;
+    width: 200px;
+    height: 210px;
+    text-shadow: 0 0 1px black;
+    background-color: #110A08;
+    border-radius: 20px;
+}
+
+#footer {
+    padding: 1px ;
+    background-image: url(https://2.bp.blogspot.com/-42lcyl3Ozu0/UHYIzt4prQI/AAAAAAAABRA/9vp79KmqcKo/s1600/DSC_0555.JPG);
+    background-size: cover;
+    height: 400px;
+}
